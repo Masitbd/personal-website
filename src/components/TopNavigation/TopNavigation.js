@@ -9,15 +9,16 @@ class TopNavigation extends Component {
         super();
         this.state={
             navBarTitle: "navTitle",
-            navBarLogo: [whiteLogo]
+            navBarLogo: [whiteLogo],
+            navBarBack: "navBackground"
         }
     }
     onScroll= () =>{
         if (window.scrollY> 100){
-            this.setState({navBarTitle:'navTitleScroll', navBarLogo: [blueLogo]});
+            this.setState({navBarTitle:'navTitleScroll', navBarLogo: [blueLogo], navBarBack:'navBackgroundScrool'});
         }
         else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle', navBarLogo:[whiteLogo]})
+            this.setState({navBarTitle:'navTitle', navBarLogo:[whiteLogo], navBarBack: 'navBackground'})
         }
     }
 
@@ -29,7 +30,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar className={this.state.navBarBack} fixed="top" collapseOnSelect expand="lg"  variant="dark">
                     <Navbar.Brand className={this.state.navBarTitle} href="#home"><img src={this.state.navBarLogo} /> Murad Sarker</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

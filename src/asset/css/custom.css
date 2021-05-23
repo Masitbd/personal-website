@@ -74,3 +74,11 @@ color: #0073E6;
     font-weight: 700;
     font-size: 24px;
 }
+
+.navBackground {
+    background-color: rgba(00,00,00,0.1) !important;
+}
+
+.navBackgroundScrool {
+background-color: #ffffff !important;
+}
