@@ -1,20 +1,23 @@
 import React, {Component, Fragment} from 'react';
 import {Navbar, NavDropdown, Nav} from "react-bootstrap";
+import whiteLogo from "../../asset/image/navlogo.svg";
+import blueLogo from "../../asset/image/navlogoScroll.svg";
 
 class TopNavigation extends Component {
 
     constructor() {
         super();
         this.state={
-            navBarTitle: "navTitle"
+            navBarTitle: "navTitle",
+            navBarLogo: [whiteLogo]
         }
     }
     onScroll= () =>{
         if (window.scrollY> 100){
-            this.setState({navBarTitle:'navTitleScroll'})
+            this.setState({navBarTitle:'navTitleScroll', navBarLogo: [blueLogo]});
         }
         else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle'})
+            this.setState({navBarTitle:'navTitle', navBarLogo:[whiteLogo]})
         }
     }
 
@@ -27,7 +30,7 @@ class TopNavigation extends Component {
         return (
             <Fragment>
                 <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand className={this.state.navBarTitle} href="#home">Murad Sarker</Navbar.Brand>
+                    <Navbar.Brand className={this.state.navBarTitle} href="#home"><img src={this.state.navBarLogo} /> Murad Sarker</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
