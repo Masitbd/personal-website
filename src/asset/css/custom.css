@@ -134,3 +134,31 @@ color: #0073E6;
 .summarySection{
     margin: 5rem;
 }
+
+.countNumber{
+    color: #FFFFFF;
+    font-family: 'montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 6000;
+}
+.countTitles{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 6000;
+}
+.countSections{
+    margin-top: 15%;
+}
+.cardTitle{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cardSubTitle{
+    font-family: 'montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
