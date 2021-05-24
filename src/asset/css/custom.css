@@ -231,3 +231,27 @@ color: #0073E6;
 .courseDescLink:hover{
     text-decoration: none;
 }
+.videoCard{
+    margin: 50px auto;
+    padding: 3rem 3rem 6rem 3rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+.playBtn{
+    color: #0073E6;
+    font-size: 48px;
+    cursor: pointer;
+
+}
+
+.videoTitles{
+    color: #0073E6;
+    font-size: 22px;
+    ffont-family: 'montserrat', sans-serif;
+    font-weight: 600;
+}
+.videoDesc{
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
