@@ -6,27 +6,70 @@ class Courses extends Component {
         return (
             <Fragment>
               <Container>
+                  <h1 className="serviceNameTitles text-center">My Completed Courses</h1>
                   <Row>
                      <Col lg={6} sm={12} md={12}>
                         <Row>
                             <Col lg={6} sm={12} md={6}>
-
+                              <img className="courseImage"  src="https://cdn.pixabay.com/photo/2017/04/19/13/16/computer-2242264_960_720.jpg" />
                             </Col>
                             <Col lg={6} sm={12} md={6}>
-
+                            <h5 className="courseTitle">Web Development</h5>
+                                <p className="courseDesc">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                                    demonstrate the visual form of a document or a typeface without relying on meaningful
+                                    content.
+                                    <br/>
+                                    <a className="courseDescLink" href="https">Details</a>
+                                </p>
                             </Col>
+                            <Col lg={6} sm={12} md={6}>
+                                <img className="courseImage"  src="https://cdn.pixabay.com/photo/2017/04/19/13/16/computer-2242264_960_720.jpg" />
+                            </Col>
+                            <Col lg={6} sm={12} md={6}>
+                                <h5 className="courseTitle">Web Development</h5>
+                                <p className="courseDesc">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                                    demonstrate the visual form of a document or a typeface without relying on meaningful
+                                    content.
+                                    <br/>
+                                    <a className="courseDescLink" href="https">Details</a>
+                                </p>
+                            </Col>
+
                         </Row>
                      </Col>
-                      <Col lg={6} sm={12} md={6}>
+                      <Col lg={6} sm={12} md={12}>
                           <Row>
                               <Col lg={6} sm={12} md={6}>
-
+                                  <img className="courseImage"  src="https://cdn.pixabay.com/photo/2017/04/19/13/16/computer-2242264_960_720.jpg" />
                               </Col>
                               <Col lg={6} sm={12} md={6}>
-
+                                  <h5 className="courseTitle">Web Development</h5>
+                                  <p className="courseDesc">
+                                      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                                      demonstrate the visual form of a document or a typeface without relying on meaningful
+                                      content.
+                                      <br/>
+                                      <a className="courseDescLink" href="https">Details</a>
+                                  </p>
+                              </Col>
+                              <Col lg={6} sm={12} md={6}>
+                                  <img className="courseImage"  src="https://cdn.pixabay.com/photo/2017/04/19/13/16/computer-2242264_960_720.jpg" />
+                              </Col>
+                              <Col lg={6} sm={12} md={6}>
+                                  <h5 className="courseTitle">Web Development</h5>
+                                  <p className="courseDesc">
+                                      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                                      demonstrate the visual form of a document or a typeface without relying on meaningful
+                                      content.
+                                      <br/>
+                                      <a className="courseDescLink" href="https">Details</a>
+                                  </p>
                               </Col>
                           </Row>
                       </Col>
+
                   </Row>
               </Container>
             </Fragment>

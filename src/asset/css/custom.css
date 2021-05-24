@@ -199,8 +199,35 @@ color: #0073E6;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
-.projectCardImage {
+.projectCardImage{
     width: 100%;
-    height: 15vw;
+    height: 14vw;
     object-fit: cover;
+}
+.courseImage {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+.courseTitle{
+    ffont-family: 'montserrat', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.courseDesc{
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.courseDescLink{
+    text-decoration: none;
+    color: #0073E6;
+    fornt-size: 18px;
+    font-width: 600;
+
+}
+.courseDescLink:hover{
+    text-decoration: none;
 }
