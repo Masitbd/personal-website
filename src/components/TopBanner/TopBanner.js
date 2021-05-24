@@ -15,17 +15,11 @@ class TopBanner extends Component {
                                          <Button variant="primary">More Info</Button>
                                      </Col>
                                  </Row>
-
-
                              </Container>
-
                          </div>
-
-
                      </Container>
                     </Fragment>
-
-                        );
+                );
     }
 }
 

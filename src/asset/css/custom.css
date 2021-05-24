@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .topBannerOverlay {
     position:absolute;
     min-height:500px;
@@ -117,5 +116,21 @@ color: #0073E6;
     color: #000000;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-
+}
+.summaryBanner{
+    background-image: url(../image/banner.jpg);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryBannerOverlay {
+    position:absolute;
+    min-height:350px;
+    width:100%;
+    background: rgba(0,0,0,0.6);
+}
+.summarySection{
+    margin: 5rem;
 }
