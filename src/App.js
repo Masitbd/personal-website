@@ -5,6 +5,7 @@ import TopNavigation from "./components/TopNavigation/TopNavigation";
 import Analysis from "./components/Analysis/Analysis";
 import Summary from "./components/Summary/Summary";
 import RecentProjects from "./components/RecentProjects/RecentProjects";
+import Courses from "./components/Courses/Courses";
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Analysis />
         <Summary />
         <RecentProjects />
+        <Courses />
       </div>
   );
 }
