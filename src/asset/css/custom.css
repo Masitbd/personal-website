@@ -99,7 +99,7 @@ color: #0073E6;
     text-decoration: none !important;
     font-family: 'montserrat', sans-serif;
     font-weight:400;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 
 }
 .navItemScroll {
@@ -337,4 +337,11 @@ color: #0073E6;
     font-weight: 600;
     color: #FFFFFF;
     font-size: 28px;
+}
+
+.form-control:hover{
+    border-radius: 2px !important;
+    border-color: #0073E6 !important;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+
 }
